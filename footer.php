@@ -30,7 +30,7 @@
 		<div id="site-footer-credit">
 			<div class="site-section-wrapper site-section-wrapper-footer-credit">
 				<?php $copyright_default = __('Copyright &copy; ','podcast') . date("Y",time()) . ' ' . get_bloginfo('name') . '. ' . __('All Rights Reserved. ', 'podcast'); ?>
-				<p class="site-credit"><?php echo esc_html(get_theme_mod( 'footer-text', $copyright_default )); ?> <span class="theme-credit"><?php esc_html_e('Theme by', 'podcast'); ?> <a href="https://www.ilovewp.com/" rel="nofollow,noopener" target="_blank" title="WordPress Themes for Schools and NGOs">ILoveWP.com</a></span></p>
+				<p class="site-credit"><?php echo esc_html(get_theme_mod( 'footer-text', $copyright_default )); ?></p>
 			</div><!-- .site-section-wrapper .site-section-wrapper-footer-credit -->
 		</div><!-- #site-footer-credit -->
 
