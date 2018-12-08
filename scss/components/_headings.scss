@@ -1,0 +1,44 @@
+#site-masthead {
+    background-color: #fff;
+    padding: 1rem 0;
+    position: relative;
+    z-index: 3;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.07);
+  }
+  
+  .page-header-centered .site-section-wrapper-masthead {
+    text-align: center;
+  }
+  
+  #site-masthead-contacts {
+    background-color: #f3f5f6;
+    border-width: 0 0 1px;
+    font-size: 0.8125rem;
+    padding: 0.8125rem;
+    box-shadow: none;
+  }
+  
+  #site-logo {
+    display: inline-block;
+    padding-right: 40px;
+    text-align: left;
+    vertical-align: middle;
+    width: 27.27272727%;
+    .custom-logo {
+      height: auto;
+      max-width: 100%;
+    }
+    .site-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      letter-spacing: -1px;
+      margin-bottom: 0;
+      text-transform: uppercase;
+    }
+    .site-description {
+      font-size: 0.875rem;
+      font-weight: 400;
+      letter-spacing: 0;
+      margin: 10px 0 0;
+    }
+  }

@@ -1,0 +1,74 @@
+.site-breadcrumbs {
+    color: #555555;
+    font-size: 0.875rem;
+    .trail-browse {
+      color: #555555;
+      font-size: 0.875rem;
+    }
+    display: block;
+    line-height: 1.6em;
+    margin: 0 0 3rem;
+    .site-breadcrumbs-p > * {
+      display: inline-block;
+      margin: 0 0.5rem 0 0;
+      padding: 0;
+      line-height: 1.6em;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+    .fa {
+      display: inline-block;
+      margin-top: -3px;
+      margin-left: 4px;
+      margin-right: 6px;
+    }
+    .trail-item:last-of-type .fa {
+      display: none;
+    }
+    .trail-begin {
+      margin-top: -2px;
+      .nicon-angle-right {
+        margin-top: 1px;
+      }
+    }
+    .trail-items {
+      list-style: none;
+      li {
+        display: inline-block;
+        &:last-child {
+          margin-right: 0;
+          .nicon-angle-right {
+            display: none;
+          }
+        }
+      }
+    }
+    a {
+      color: #058dd1;
+      font-weight: 400;
+      text-decoration: underline;
+      &:hover, &:focus {
+        color: #12bed9;
+      }
+    }
+  }
+  
+  /* Captions */
+  
+  .entry-content .wp-caption {
+    font-size: 0.875rem;
+    line-height: 1.75em;
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+    max-width: 100%;
+    width: auto;
+    img {
+      margin-bottom: 0;
+    }
+    .wp-caption-text {
+      background-color: #eee;
+      margin-top: 0;
+      padding: 1.25rem;
+    }
+  }

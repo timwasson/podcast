@@ -1,0 +1,141 @@
+
+#ilovewp-comments .comment-reply-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0 0.75em;
+  }
+  
+  .comments-area {
+    margin: 3em 0 0;
+    text-align: left;
+    .comments-title {
+      margin: 0 0 2em;
+    }
+  }
+  
+  .page .comments-area {
+    margin-left: 0;
+  }
+  
+  .comment-list {
+    margin: 1.75em 0;
+    list-style-type: none;
+    padding: 0;
+    .children {
+      list-style-type: none;
+      padding: 0;
+    }
+  }
+  
+  .comment, .pingback, .trackback {
+    padding: 1.75em 0;
+  }
+  
+  .depth-1 {
+    border-bottom: solid 1px #ece8e0;
+    &:first-child {
+      margin-top: 0;
+      padding-top: 0;
+    }
+  }
+  
+  .children {
+    margin-top: 24px;
+    .comment {
+      border-left: 5px solid #e7e7e7;
+      padding-left: 24px;
+    }
+  }
+  
+  .comment-author .avatar {
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+  }
+  
+  .comment-meta {
+    margin-bottom: 0;
+    .fn {
+      display: inline-block;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      margin-right: 15px;
+    }
+  }
+  
+  .says {
+    display: none;
+  }
+  
+  .comment-metadata {
+    display: inline-block;
+    font-size: 14px;
+    a {
+      color: #058dd1;
+      &:hover {
+        color: #da270b;
+      }
+    }
+  }
+  
+  .comment-content a {
+    word-wrap: break-word;
+  }
+  
+  .comment-tools {
+    display: inline-block;
+    float: right;
+    a {
+      font-size: 13px;
+      font-weight: normal;
+    }
+  }
+  
+  .comment-reply-link {
+    margin-left: 10px;
+  }
+  
+  .comment-respond {
+    padding: 0 20px 20px 0;
+  }
+  
+  .comment-list .comment-respond {
+    padding-top: 30px;
+  }
+  
+  .comment-content {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.75em;
+    overflow: hidden;
+    p {
+      margin: 1em 0 0;
+    }
+  }
+  
+  .comment-form label {
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 1em 0;
+    text-transform: uppercase;
+    .required {
+      color: #e95445;
+      font-weight: 700;
+    }
+  }
+  
+  .form-allowed-tags {
+    font-size: 13px;
+  }
+  
+  .no-comments {
+    text-align: center;
+  }
+  
+  .bypostauthor {
+    display: block;
+  }

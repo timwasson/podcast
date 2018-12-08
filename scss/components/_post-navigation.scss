@@ -1,0 +1,34 @@
+.site-post-navigation {
+    font-size: 14px;
+    line-height: 1.5em;
+    margin: 0;
+    text-align: left;
+    .site-post-nav-item {
+      display: inline-block;
+      margin: 0;
+      text-align: left;
+      vertical-align: top;
+      width: 50%;
+    }
+    .site-post-nav-next {
+      float: right;
+      text-align: right;
+    }
+    .post-navigation-label {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 700;
+      margin: 0 0 10px;
+      text-transform: uppercase;
+    }
+    .fa {
+      margin-right: 5px;
+    }
+    .site-post-nav-next .fa {
+      margin-right: 0;
+      margin-left: 5px;
+    }
+    a {
+      display: block;
+    }
+  }

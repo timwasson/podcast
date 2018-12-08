@@ -1,0 +1,82 @@
+
+#site-footer {
+    background-color: #fff;
+    border-top: solid 1px #ebebeb;
+    color: #555;
+    font-size: 0.875rem;
+    line-height: 1.8em;
+    margin: 0;
+    padding: 80px 0 80px;
+    position: relative;
+    .site-column-wrapper {
+      padding: 0 20px;
+    }
+    a {
+      color: #272727;
+    }
+    .current-menu-item a {
+      color: #da270b;
+      text-decoration: underline;
+    }
+    a {
+      &:hover, &:focus {
+        color: #da270b;
+        text-decoration: underline;
+      }
+    }
+    .widget-title {
+      color: #12bed9;
+    }
+  }
+  
+  #site-footer-credit {
+    background-color: #070707;
+    color: #888;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 2em;
+    padding: 30px 0;
+    .site-section-wrapper {
+      text-align: center;
+    }
+    a {
+      color: inherit;
+      text-decoration: underline;
+      &:hover, &:focus {
+        color: #da270b;
+      }
+    }
+    .site-credit {
+      margin: 0;
+    }
+    .site-footer-extra {
+      float: right;
+    }
+    .widget-title {
+      display: none;
+    }
+    .site-footer-extra li {
+      display: inline-block;
+      + li {
+        margin-left: -4px;
+      }
+    }
+    li + li:before {
+      color: #e6e6e6;
+      content: '|';
+      display: inline-block;
+      font-size: 0.7500187505rem;
+      line-height: 1em;
+      margin: 0 0.5rem;
+    }
+  }
+  
+  #site-footer .textwidget {
+    p + p {
+      margin-top: 2em;
+    }
+    a {
+      font-weight: 700;
+      text-decoration: underline;
+    }
+  }

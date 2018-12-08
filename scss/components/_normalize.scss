@@ -1,0 +1,1487 @@
+
+html {
+  font-size: 16px;
+  line-height: 1;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  &:before, &:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+figcaption, figure, main {
+  /* 1 */
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+code, kbd, samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+  vertical-align: middle;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+button, input {
+  /* 1 */
+  overflow: visible;
+}
+
+button, select {
+  /* 1 */
+  text-transform: none;
+}
+
+button, html [type="button"], [type="reset"], [type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type="checkbox"], [type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+[type="number"] {
+  &::-webkit-inner-spin-button, &::-webkit-outer-spin-button {
+    height: auto;
+  }
+}
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+  &::-webkit-search-cancel-button, &::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template, [hidden] {
+  display: none;
+}
+
+.clearfix {
+  &:before {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6, .widget-title, .archives-title {
+  color: #0d0d0d;
+  font-family: Poppins, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0;
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+  font-weight: normal;
+  line-height: 1;
+}
+
+h1 small, h2 small, h3 small {
+  font-size: 65%;
+}
+
+h4 small, h5 small, h6 small {
+  font-size: 75%;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+/* Tables */
+
+table {
+  border-top: 0;
+  margin-bottom: 2em;
+  position: relative;
+  table-layout: fixed;
+  width: 100%;
+  z-index: 1;
+  th {
+    text-align: left;
+  }
+  tr {
+    border-bottom: 1px solid #F0F0F0;
+  }
+  th, td {
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0.8125rem 1.25rem;
+    vertical-align: middle;
+  }
+}
+
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+
+.sticky, .bypostauthor {
+  position: relative;
+}
+
+ul, ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul ul, ol ol, ul ol, ol ul {
+  margin: 0;
+}
+
+/*--------------------------------------------------------------
+2.0 Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers. */
+
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+  &:focus {
+    background-color: #f1f1f1;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */
+  }
+}
+
+/*--------------------------------------------------------------
+3.0 Alignments
+--------------------------------------------------------------*/
+
+.entry-content .alignleft, .textwidget .alignleft {
+  display: inline;
+  float: left;
+  margin-right: 2.5rem;
+  margin-left: 0;
+}
+
+.entry-content .alignright, .textwidget .alignright {
+  display: inline;
+  float: right;
+  margin-right: 0;
+  margin-left: 2.5rem;
+}
+
+.entry-content .aligncenter, .textwidget .aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+4.0 Typography
+--------------------------------------------------------------*/
+
+body, button, input, select, textarea {
+  color: #333;
+  font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.66;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+dfn, cite, em, i {
+  font-style: italic;
+}
+
+blockquote {
+  color: #666;
+  font-size: 1rem;
+  font-size: 1.125rem;
+  font-style: italic;
+  line-height: 1.7;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  cite {
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 0.5em;
+  }
+}
+
+address {
+  margin: 0 0 1.5em;
+}
+
+pre {
+  background: #eee;
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1.6em;
+}
+
+code, kbd, tt, var {
+  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+
+abbr, acronym {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+}
+
+mark, ins {
+  background: #eee;
+  text-decoration: none;
+}
+
+big {
+  font-size: 125%;
+}
+
+blockquote {
+  quotes: "" "";
+}
+
+q {
+  quotes: "“" "”" "‘" "’";
+}
+
+blockquote {
+  &:before, &:after {
+    content: "";
+  }
+}
+
+:focus {
+  outline: none;
+}
+
+/* Typography for Arabic Font */
+
+html {
+  &[lang="ar"] {
+    body, button, input, select, textarea {
+      font-family: Tahoma, Arial, sans-serif;
+    }
+  }
+  &[lang="ary"] {
+    body, button, input, select, textarea {
+      font-family: Tahoma, Arial, sans-serif;
+    }
+  }
+  &[lang="azb"] {
+    body, button, input, select, textarea {
+      font-family: Tahoma, Arial, sans-serif;
+    }
+  }
+  &[lang="fa-IR"] {
+    body, button, input, select, textarea {
+      font-family: Tahoma, Arial, sans-serif;
+    }
+  }
+  &[lang="haz"] {
+    body, button, input, select, textarea {
+      font-family: Tahoma, Arial, sans-serif;
+    }
+  }
+  &[lang="ps"] {
+    body, button, input, select, textarea {
+      font-family: Tahoma, Arial, sans-serif;
+    }
+  }
+  &[lang="ur"] {
+    body, button, input, select, textarea {
+      font-family: Tahoma, Arial, sans-serif;
+    }
+  }
+  &[lang="ar"] {
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 700;
+    }
+  }
+  &[lang="ary"] {
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 700;
+    }
+  }
+  &[lang="azb"] {
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 700;
+    }
+  }
+  &[lang="fa-IR"] {
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 700;
+    }
+  }
+  &[lang="haz"] {
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 700;
+    }
+  }
+  &[lang="ps"] {
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 700;
+    }
+  }
+  &[lang="ur"] {
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 700;
+    }
+  }
+  &[lang^="zh-"] {
+    body, button, input, select, textarea {
+      font-family: "PingFang TC", "Helvetica Neue", Helvetica, STHeitiTC-Light, Arial, sans-serif;
+    }
+  }
+  &[lang="zh-CN"] {
+    body, button, input, select, textarea {
+      font-family: "PingFang SC", "Helvetica Neue", Helvetica, STHeitiSC-Light, Arial, sans-serif;
+    }
+  }
+  &[lang^="zh-"] {
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 700;
+    }
+  }
+  &[lang="bg-BG"] {
+    body, button, input, select, textarea {
+      font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+    }
+  }
+  &[lang="ru-RU"] {
+    body, button, input, select, textarea {
+      font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+    }
+  }
+  &[lang="uk"] {
+    body, button, input, select, textarea {
+      font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+    }
+  }
+  &[lang="bg-BG"] {
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 700;
+      line-height: 1.2;
+    }
+  }
+  &[lang="ru-RU"] {
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 700;
+      line-height: 1.2;
+    }
+  }
+  &[lang="uk"] {
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 700;
+      line-height: 1.2;
+    }
+  }
+  &[lang="bn-BD"] {
+    body, button, input, select, textarea {
+      font-family: Arial, sans-serif;
+    }
+  }
+  &[lang="hi-IN"] {
+    body, button, input, select, textarea {
+      font-family: Arial, sans-serif;
+    }
+  }
+  &[lang="mr-IN"] {
+    body, button, input, select, textarea {
+      font-family: Arial, sans-serif;
+    }
+  }
+  &[lang="bn-BD"] {
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 700;
+    }
+  }
+  &[lang="hi-IN"] {
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 700;
+    }
+  }
+  &[lang="mr-IN"] {
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 700;
+    }
+  }
+  &[lang="el"] {
+    body, button, input, select, textarea {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 700;
+      line-height: 1.3;
+    }
+  }
+  &[lang="gu-IN"] {
+    body, button, input, select, textarea {
+      font-family: Arial, sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 700;
+    }
+  }
+  &[lang="he-IL"] {
+    body, button, input, select, textarea {
+      font-family: "Arial Hebrew", Arial, sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 700;
+    }
+  }
+  &[lang="ja"] {
+    body, button, input, select, textarea {
+      font-family: "Hiragino Kaku Gothic Pro", Meiryo, sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 700;
+    }
+  }
+  &[lang="ko-KR"] {
+    body, button, input, select, textarea {
+      font-family: "Apple SD Gothic Neo", "Malgun Gothic", "Nanum Gothic", Dotum, sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 600;
+    }
+  }
+  &[lang="th"] {
+    h1, h2, h3, h4, h5, h6 {
+      line-height: 1.65;
+      font-family: "Sukhumvit Set", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    body, button, input, select, textarea {
+      line-height: 1.8;
+      font-family: "Sukhumvit Set", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+  }
+  &[lang="ar"] *, &[lang="ary"] *, &[lang="azb"] *, &[lang="haz"] *, &[lang="ps"] *, &[lang^="zh-"] *, &[lang="bg-BG"] *, &[lang="ru-RU"] *, &[lang="uk"] *, &[lang="bn-BD"] *, &[lang="hi-IN"] *, &[lang="mr-IN"] *, &[lang="el"] *, &[lang="gu-IN"] *, &[lang="he-IL"] *, &[lang="ja"] *, &[lang="ko-KR"] *, &[lang="th"] * {
+    letter-spacing: 0 !important;
+  }
+}
+
+/* Typography for Chinese Font */
+
+/* Typography for Cyrillic Font */
+
+/* Typography for Devanagari Font */
+
+/* Typography for Greek Font */
+
+/* Typography for Gujarati Font */
+
+/* Typography for Hebrew Font */
+
+/* Typography for Japanese Font */
+
+/* Typography for Korean font */
+
+/* Typography for Thai Font */
+
+/* Remove letter-spacing for all non-latin alphabets */
+
+/*--------------------------------------------------------------
+6.0 Forms
+--------------------------------------------------------------*/
+
+label {
+  color: #424242;
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+fieldset {
+  margin-bottom: 1em;
+}
+
+input {
+  &[type="text"], &[type="email"], &[type="url"], &[type="password"], &[type="search"], &[type="number"], &[type="tel"], &[type="range"], &[type="date"], &[type="month"], &[type="week"], &[type="time"], &[type="datetime"], &[type="datetime-local"], &[type="color"] {
+    color: #666;
+    background: #fff;
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    border: 1px solid #bbb;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    display: block;
+    padding: 0.7em;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+textarea {
+  color: #666;
+  background: #fff;
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+  border: 1px solid #bbb;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  display: block;
+  padding: 0.7em;
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+}
+
+input {
+  &[type="text"]:focus, &[type="email"]:focus, &[type="url"]:focus, &[type="password"]:focus, &[type="search"]:focus, &[type="number"]:focus, &[type="tel"]:focus, &[type="range"]:focus, &[type="date"]:focus, &[type="month"]:focus, &[type="week"]:focus, &[type="time"]:focus, &[type="datetime"]:focus, &[type="datetime-local"]:focus, &[type="color"]:focus {
+    color: #222;
+    border: solid 4px #058dd1;
+    box-shadow: 0 2px 8px rgba(67, 79, 91, 0.2);
+  }
+}
+
+textarea:focus {
+  color: #222;
+  border: solid 4px #058dd1;
+  box-shadow: 0 2px 8px rgba(67, 79, 91, 0.2);
+}
+
+select {
+  border: 1px solid #bbb;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  height: 3em;
+  max-width: 100%;
+}
+
+input {
+  &[type="radio"], &[type="checkbox"] {
+    margin-right: 0.5em;
+  }
+  &[type="radio"] + label, &[type="checkbox"] + label {
+    font-weight: 400;
+  }
+}
+
+button {
+  background-color: #058dd1;
+  border: 0;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.8125rem 1.5rem;
+  text-shadow: none;
+  transition: all 0.15s ease-in-out;
+}
+
+input {
+  &[type="button"], &[type="submit"] {
+    background-color: #058dd1;
+    border: 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1;
+    padding: 0.8125rem 1.5rem;
+    text-shadow: none;
+    transition: all 0.15s ease-in-out;
+  }
+  + {
+    button {
+      padding: 0.75em 2em;
+    }
+    input {
+      &[type="button"], &[type="submit"] {
+        padding: 0.75em 2em;
+      }
+    }
+  }
+}
+
+button.secondary {
+  background-color: #ddd;
+  color: #222;
+}
+
+input {
+  &[type="reset"], &[type="button"].secondary, &[type="reset"].secondary {
+    background-color: #ddd;
+    color: #222;
+  }
+  &[type="submit"] {
+    &.secondary {
+      background-color: #ddd;
+      color: #222;
+    }
+    &:hover, &:focus {
+      background: #da270b;
+    }
+  }
+}
+
+button.secondary {
+  &:hover, &:focus {
+    background: #bbb;
+  }
+}
+
+input {
+  &[type="reset"] {
+    &:hover, &:focus {
+      background: #bbb;
+    }
+  }
+  &[type="button"].secondary {
+    &:hover, &:focus {
+      background: #bbb;
+    }
+  }
+  &[type="reset"].secondary {
+    &:hover, &:focus {
+      background: #bbb;
+    }
+  }
+  &[type="submit"].secondary {
+    &:hover, &:focus {
+      background: #bbb;
+    }
+  }
+}
+
+/* Placeholder text color -- selectors need to be separate to work. */
+
+::-webkit-input-placeholder, :-moz-placeholder {
+  color: #333;
+  font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+::-moz-placeholder {
+  color: #333;
+  font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+  opacity: 1;
+  /* Since FF19 lowers the opacity of the placeholder by default */
+}
+
+:-ms-input-placeholder {
+  color: #333;
+  font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+/*--------------------------------------------------------------
+7.0 Tables
+--------------------------------------------------------------*/
+
+table {
+  border-collapse: collapse;
+  margin: 0 0 1.5em;
+  width: 100%;
+}
+
+thead th {
+  border-bottom: 0;
+}
+
+th {
+  padding: 0.5rem;
+  text-align: left;
+}
+
+tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+td {
+  padding: 0.5rem;
+}
+
+/********************************************************************************************* 
+
+1. Page Structure: Common layout elements
+
+*********************************************************************************************/
+
+a {
+  color: #058dd1;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    color: #12bed9;
+  }
+  &:focus {
+    color: #12bed9;
+    outline: 1px dotted;
+    outline-offset: 2px;
+    text-decoration: underline;
+  }
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: #0d0d0d;
+}
+
+h1 a {
+  &:hover, &:focus {
+    color: #da270b;
+  }
+}
+
+h2 a {
+  &:hover, &:focus {
+    color: #da270b;
+  }
+}
+
+h3 a {
+  &:hover, &:focus {
+    color: #da270b;
+  }
+}
+
+h4 a {
+  &:hover, &:focus {
+    color: #da270b;
+  }
+}
+
+h5 a {
+  &:hover, &:focus {
+    color: #da270b;
+  }
+}
+
+h6 a {
+  &:hover, &:focus {
+    color: #da270b;
+  }
+}
+
+body {
+  background-color: #f7f7f7;
+  color: #272727;
+  font-family: Poppins, Arial, sans-serif;
+  font-size: 62.5%;
+  line-height: 1.5rem;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#container {
+  font-size: 1rem;
+  line-height: 1.75em;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.site-wrapper-all {
+  padding: 0;
+  text-align: center;
+}
+
+.site-section-wrapper {
+  margin: 0 auto;
+  padding: 0 60px;
+  text-align: left;
+  width: 1220px;
+}
+
+li.cleaner {
+  margin: 0;
+  clear: both;
+  font-size: 1px;
+  height: 1px;
+  line-height: 1px;
+}
+
+div {
+  &.cleaner, &.divider {
+    margin: 0;
+    clear: both;
+    font-size: 1px;
+    height: 1px;
+    line-height: 1px;
+  }
+}
+
+.centered, .title-center {
+  text-align: center;
+}
+
+/*********************************************************************************************
+
+12. Media Queries 
+
+*********************************************************************************************/
+/* Tablet Landscape */
+@media screen and (max-width: 1220px) {
+  .site-section-wrapper {
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 100%;
+  }
+  .site-section-wrapper-footer {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+/* Tablet Landscape */
+@media screen and (max-width: 960px) {
+  .entry-title {
+    font-size: 1.25rem;
+  }
+  #site-homepage-widgets .widget-title {
+    font-size: 1.5rem;
+  }
+  #site-main {
+    .archives-title, #reply-title {
+      font-size: 1.5rem;
+    }
+  }
+  #ilovewp-comments .comments-title {
+    font-size: 1.5rem;
+  }
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+  .site-section-wrapper {
+    padding-right: 40px;
+    padding-left: 40px;
+    width: 100%;
+  }
+  .site-section-wrapper-footer {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .page-sidebar-right {
+    .site-column-content, .site-column-aside {
+      display: block;
+      float: none;
+      width: 100%;
+    }
+  }
+  .page-sidebar-left {
+    .site-column-content, .site-column-aside {
+      display: block;
+      float: none;
+      width: 100%;
+    }
+  }
+  .page-sidebar-right .site-column-aside {
+    border-top: dashed 2px #ddd;
+    margin-top: 3rem;
+    padding-top: 3rem;
+  }
+  .page-sidebar-left {
+    .site-column-aside {
+      border-top: dashed 2px #ddd;
+      margin-top: 3rem;
+      padding-top: 3rem;
+    }
+    .site-column-content .site-column-wrapper {
+      padding-left: 0;
+    }
+  }
+  .page-sidebar-right .site-column-content .site-column-wrapper {
+    padding-right: 0;
+  }
+  .site-section-page-header-wrapper {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+  #site-home-welcome .site-column-1 .site-column-wrapper {
+    padding-right: 50px;
+  }
+  .page-intro-header {
+    font-size: 0.9375rem;
+  }
+  .ilovewp-featured-post .entry-title {
+    font-size: 1.5rem;
+  }
+  .page-title {
+    font-size: 2rem;
+  }
+  #site-masthead {
+    padding: 1.5rem 0;
+  }
+  #site-logo {
+    display: block;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+    width: 100%;
+    img {
+      height: auto;
+      max-width: 100%;
+      width: auto;
+    }
+  }
+  .ilovewp-featured-page-item {
+    .entry-title {
+      position: relative;
+      left: 0;
+      bottom: 0;
+      a {
+        display: block;
+        text-align: center;
+      }
+    }
+    .entry-thumbnail:after {
+      content: none;
+    }
+  }
+  /* Main Menu */
+  #site-primary-nav {
+    display: none !important;
+  }
+  #site-menu-main, #menu-main-slick {
+    display: none;
+  }
+  .site-section-wrapper-primary-menu {
+    background: none;
+  }
+  #site-section-primary-menu, .site-navbar-header {
+    border-width: 0;
+    display: block;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+  }
+  #site-section-primary-menu {
+    margin-top: 1.5rem;
+  }
+  .mm-listview {
+    background-color: #131313;
+    color: #fff;
+    font-size: 0.8125rem;
+    padding: 3rem 2rem;
+  }
+  .mm-listitem .mm-btn_next {
+    color: #fff;
+  }
+  .mm-listview .mm-listview {
+    display: block;
+    padding: 0;
+  }
+  .mm-opened .sub-menu {
+    display: block !important;
+  }
+  .mm-listview {
+    li {
+      text-align: left;
+      border-color: rgba(255, 255, 255, 0.1);
+    }
+    .mm-listview li {
+      text-transform: none;
+    }
+    li {
+      text-transform: uppercase;
+    }
+    .current-menu-parent > a, .current-menu-item > a {
+      color: #cf4330;
+    }
+    li a {
+      &:hover, &:focus {
+        color: #cf4330;
+      }
+    }
+  }
+  .mm-menu_theme-dark .mm-listitem_opened > {
+    .mm-btn_next, .mm-panel {
+      background: none;
+    }
+  }
+  .mm-panel_has-navbar {
+    .mm-navbar {
+      display: none;
+    }
+    padding-top: 0;
+  }
+  .mm-listitem_vertical > .mm-panel {
+    padding: 1rem;
+  }
+  .navbar-header {
+    text-align: center;
+  }
+  .site-navbar-header {
+    display: block;
+  }
+  .navbar-toggle {
+    display: block;
+    float: none;
+    margin: 0;
+    padding: calc(1.25rem - 4px) 0.8125rem 1.25rem;
+    text-align: center;
+  }
+  .btn_menu_icons {
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: middle;
+  }
+  .btn_menu_span {
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1em;
+    margin: 0 auto 0 0.5rem;
+    vertical-align: middle;
+  }
+  .navbar-toggle .icon-bar {
+    background: #fff;
+    display: block;
+    width: 18px;
+    height: 2px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    border-radius: 1px;
+    + .icon-bar {
+      margin-top: 4px;
+    }
+  }
+  .sf-arrows .sf-with-ul:after {
+    display: none;
+  }
+  .btn_menu_span {
+    &:hover, &:focus {
+      text-decoration: underline;
+    }
+  }
+  /* End Main Menu */
+  .theme-credit {
+    display: none;
+  }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media screen and (max-width: 640px) {
+  .site-section-wrapper-footer {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  #site-home-welcome {
+    .site-column-1 {
+      display: block;
+      width: 100%;
+    }
+    .site-column-2 {
+      display: block;
+      width: 100%;
+      margin-top: 3rem;
+    }
+    .site-column-1 .site-column-wrapper {
+      padding-right: 0;
+    }
+  }
+  .site-columns-2 .site-column {
+    display: block;
+    width: 100%;
+    + .site-column {
+      margin-top: 3rem;
+    }
+  }
+  #site-footer .site-column-wrapper {
+    padding: 0;
+  }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media screen and (max-width: 480px) {
+  .entry-thumbnail {
+    .thumbnail, .wp-post-image {
+      width: auto;
+    }
+  }
+  .wp-caption img, .post-thumbnail .thumbnail {
+    width: auto;
+  }
+  .page-intro-subscribe {
+    .widget-title, h2, h3 {
+      font-size: 1.25rem;
+    }
+  }
+  .page-title-span:after {
+    display: block;
+    margin-top: 2rem;
+    margin-left: 0;
+  }
+  .site-section-wrapper {
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 100%;
+  }
+  .site-section-wrapper-footer {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .page-intro-header {
+    line-height: 1.8em;
+  }
+  .page-intro-subscribe {
+    font-size: 0.9375rem;
+  }
+  #home-featured-pages {
+    text-align: center;
+  }
+  .ilovewp-featured-pages-list .ilovewp-featured-page-item {
+    display: inline-block;
+    margin: 0 auto;
+    width: auto;
+    + .ilovewp-featured-page-item {
+      margin-top: 3rem;
+    }
+  }
+  .site-archive-posts {
+    .entry-thumbnail {
+      display: block;
+      float: none;
+      margin: 0 0 2rem;
+      width: auto;
+    }
+    .has-post-thumbnail {
+      .entry-preview-wrapper {
+        padding-left: 0;
+      }
+      .entry-preview {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+  .page-title {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  .entry-content {
+    .alignleft, .alignright {
+      display: block;
+      float: none;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+  #site-footer {
+    .site-columns-2 .site-column {
+      margin: 0;
+      width: 100%;
+      + .site-column {
+        margin-top: 3rem;
+      }
+    }
+    .site-columns .site-column-wrapper {
+      padding: 0;
+    }
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media screen and (max-width: 384px) {
+  #site-homepage-widgets .widget-title {
+    font-size: 1.25rem;
+    line-height: 1.5em;
+  }
+  #site-main {
+    .archives-title, #reply-title {
+      font-size: 1.25rem;
+      line-height: 1.5em;
+    }
+  }
+  #ilovewp-comments .comments-title {
+    font-size: 1.25rem;
+    line-height: 1.5em;
+  }
+  .page-intro-header, .page-intro-subscribe, .site-archive-post .entry-preview {
+    line-height: 1.7em;
+  }
+  .comment-author .avatar {
+    display: none;
+  }
+  .entry-content, .archives-content {
+    font-size: 0.9375rem;
+    line-height: 1.7em;
+  }
+}

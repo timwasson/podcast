@@ -1,0 +1,471 @@
+/* Black */
+
+.theme-color-black {
+    a {
+      &:hover, &:focus {
+        color: #da270b;
+      }
+    }
+    .large-nav {
+      a {
+        &:hover, &:focus {
+          color: #da270b;
+        }
+      }
+      .current-menu-item > a, .current_page_item > a, .current-menu-parent > a {
+        color: #da270b;
+      }
+    }
+    .page-intro-header {
+      background-color: #141414;
+      color: #ccc;
+    }
+    .page-intro-subscribe {
+      background-color: #212121;
+      color: #aaa;
+      .widget-title, h2, h3 {
+        color: #fff;
+      }
+      .page-title-span:after {
+        background-color: #fff;
+      }
+    }
+    .ilovewp-featured-post .entry-title a, #site-home-welcome .widget-title {
+      color: #fff;
+    }
+    .ilovewp-featured-post .entry-tagline, .site-archive-post .entry-tagline .post-meta-span-time, .single .entry-tagline .post-meta-span-time {
+      background-color: #da270b;
+    }
+    .ilovewp-featured-page-item .entry-title a {
+      background-color: #070707;
+      color: #fff;
+      &:hover, &:focus {
+        background-color: #da270b;
+      }
+    }
+    #site-footer .widget-title {
+      color: #070707;
+    }
+    .site-breadcrumbs a:hover {
+      color: #da270b;
+    }
+  }
+  
+  .site-breadcrumbs a:focus {
+    color: #da270b;
+  }
+  
+  .theme-color-black .pagination {
+    a {
+      color: #da270b;
+    }
+    .current {
+      background-color: #da270b;
+      border-color: #da270b;
+      color: #fff;
+    }
+    a {
+      &:hover, &:focus {
+        background-color: #da270b;
+        border-color: #da270b;
+        color: #fff;
+      }
+    }
+    .current {
+      color: #fff;
+    }
+  }
+  
+  /* Blue */
+  
+  .theme-color-blue {
+    a {
+      &:hover, &:focus {
+        color: #da270b;
+      }
+    }
+    .large-nav {
+      a {
+        &:hover, &:focus {
+          color: #da270b;
+        }
+      }
+      .current-menu-item > a, .current_page_item > a, .current-menu-parent > a {
+        color: #da270b;
+      }
+    }
+    .page-intro-header {
+      background-color: #11189c;
+      color: #C2C4F0;
+    }
+    .page-intro-subscribe {
+      background-color: #0e1481;
+      color: #AFB2E9;
+      .widget-title, h2, h3 {
+        color: #fff;
+      }
+      .page-title-span:after {
+        background-color: #fff;
+      }
+    }
+    .ilovewp-featured-post .entry-title a, #site-home-welcome .widget-title {
+      color: #fff;
+    }
+    .ilovewp-featured-post .entry-tagline, .site-archive-post .entry-tagline .post-meta-span-time, .single .entry-tagline .post-meta-span-time {
+      background-color: #3D4296;
+    }
+    .ilovewp-featured-page-item .entry-title a {
+      background-color: #070707;
+      color: #fff;
+      &:hover, &:focus {
+        background-color: #da270b;
+      }
+    }
+    #site-footer .widget-title {
+      color: #070707;
+    }
+    .site-breadcrumbs a:hover {
+      color: #da270b;
+    }
+  }
+  
+  .site-breadcrumbs a:focus {
+    color: #da270b;
+  }
+  
+  .theme-color-blue .pagination {
+    a {
+      color: #da270b;
+    }
+    .current {
+      background-color: #da270b;
+      border-color: #da270b;
+      color: #fff;
+    }
+    a {
+      &:hover, &:focus {
+        background-color: #da270b;
+        border-color: #da270b;
+        color: #fff;
+      }
+    }
+    .current {
+      color: #fff;
+    }
+  }
+  
+  /* Green */
+  
+  .theme-color-green {
+    a {
+      &:hover, &:focus {
+        color: #075007;
+      }
+    }
+    .large-nav {
+      a {
+        &:hover, &:focus {
+          color: #075007;
+        }
+      }
+      .current-menu-item > a, .current_page_item > a, .current-menu-parent > a {
+        color: #075007;
+      }
+    }
+    .page-intro-header {
+      background-color: #075007;
+      color: #CEE5CE;
+    }
+    .page-intro-subscribe {
+      background-color: #043404;
+      color: #BFE5BF;
+      .widget-title, h2, h3 {
+        color: #fff;
+      }
+      .page-title-span:after {
+        background-color: #fff;
+      }
+    }
+    .ilovewp-featured-post .entry-title a, #site-home-welcome .widget-title {
+      color: #fff;
+    }
+    .ilovewp-featured-post .entry-tagline, .site-archive-post .entry-tagline .post-meta-span-time, .single .entry-tagline .post-meta-span-time {
+      background-color: #B3E6B3;
+      color: #043404;
+    }
+    .ilovewp-featured-page-item .entry-title a {
+      background-color: #070707;
+      color: #fff;
+      &:hover, &:focus {
+        background-color: #075007;
+      }
+    }
+    #site-footer .widget-title {
+      color: #070707;
+    }
+    .site-breadcrumbs a:hover {
+      color: #075007;
+    }
+  }
+  
+  .site-breadcrumbs a:focus {
+    color: #075007;
+  }
+  
+  .theme-color-green .pagination {
+    a {
+      color: #075007;
+    }
+    .current {
+      background-color: #075007;
+      border-color: #075007;
+      color: #fff;
+    }
+    a {
+      &:hover, &:focus {
+        background-color: #075007;
+        border-color: #075007;
+        color: #fff;
+      }
+    }
+    .current {
+      color: #fff;
+    }
+  }
+  
+  /* Orange */
+  
+  .theme-color-orange {
+    a {
+      &:hover, &:focus {
+        color: #e17909;
+      }
+    }
+    .large-nav {
+      a {
+        &:hover, &:focus {
+          color: #e17909;
+        }
+      }
+      .current-menu-item > a, .current_page_item > a, .current-menu-parent > a {
+        color: #e17909;
+      }
+    }
+    .page-intro-header {
+      background-color: #e17909;
+      color: #1d1001;
+    }
+    .page-intro-subscribe {
+      background-color: #c46908;
+      color: #1d1001;
+      .widget-title, h2, h3 {
+        color: #fff;
+      }
+      .page-title-span:after {
+        background-color: #fff;
+      }
+    }
+    .ilovewp-featured-post .entry-title a, #site-home-welcome .widget-title {
+      color: #fff;
+    }
+    .ilovewp-featured-post .entry-tagline, .site-archive-post .entry-tagline .post-meta-span-time, .single .entry-tagline .post-meta-span-time {
+      background-color: #070707;
+      color: #fff;
+    }
+    .ilovewp-featured-page-item .entry-title a {
+      background-color: #070707;
+      color: #fff;
+      &:hover, &:focus {
+        background-color: #e17909;
+      }
+    }
+    #site-footer .widget-title {
+      color: #070707;
+    }
+    .site-breadcrumbs a:hover {
+      color: #e17909;
+    }
+  }
+  
+  .site-breadcrumbs a:focus {
+    color: #e17909;
+  }
+  
+  .theme-color-orange .pagination {
+    a {
+      color: #e17909;
+    }
+    .current {
+      background-color: #e17909;
+      border-color: #e17909;
+      color: #fff;
+    }
+    a {
+      &:hover, &:focus {
+        background-color: #e17909;
+        border-color: #e17909;
+        color: #fff;
+      }
+    }
+    .current {
+      color: #fff;
+    }
+  }
+  
+  /* Purple */
+  
+  .theme-color-purple {
+    a {
+      &:hover, &:focus {
+        color: #7E1B5E;
+      }
+    }
+    .large-nav {
+      a {
+        &:hover, &:focus {
+          color: #7E1B5E;
+        }
+      }
+      .current-menu-item > a, .current_page_item > a, .current-menu-parent > a {
+        color: #7E1B5E;
+      }
+    }
+    .page-intro-header {
+      background-color: #500738;
+      color: #FAD1EC;
+    }
+    .page-intro-subscribe {
+      background-color: #340424;
+      color: #F9C7E8;
+      .widget-title, h2, h3 {
+        color: #fff;
+      }
+      .page-title-span:after {
+        background-color: #fff;
+      }
+    }
+    .ilovewp-featured-post .entry-title a, #site-home-welcome .widget-title {
+      color: #fff;
+    }
+    .ilovewp-featured-post .entry-tagline, .site-archive-post .entry-tagline .post-meta-span-time, .single .entry-tagline .post-meta-span-time {
+      background-color: #070707;
+      color: #fff;
+    }
+    .ilovewp-featured-page-item .entry-title a {
+      background-color: #070707;
+      color: #fff;
+      &:hover, &:focus {
+        background-color: #7E1B5E;
+      }
+    }
+    #site-footer .widget-title {
+      color: #070707;
+    }
+    .site-breadcrumbs a:hover {
+      color: #7E1B5E;
+    }
+  }
+  
+  .site-breadcrumbs a:focus {
+    color: #7E1B5E;
+  }
+  
+  .theme-color-purple .pagination {
+    a {
+      color: #7E1B5E;
+    }
+    .current {
+      background-color: #7E1B5E;
+      border-color: #7E1B5E;
+      color: #fff;
+    }
+    a {
+      &:hover, &:focus {
+        background-color: #7E1B5E;
+        border-color: #7E1B5E;
+        color: #fff;
+      }
+    }
+    .current {
+      color: #fff;
+    }
+  }
+  
+  /* Red */
+  
+  .theme-color-red {
+    a {
+      &:hover, &:focus {
+        color: #8b1104;
+      }
+    }
+    .large-nav {
+      a {
+        &:hover, &:focus {
+          color: #7E1B5E;
+        }
+      }
+      .current-menu-item > a, .current_page_item > a, .current-menu-parent > a {
+        color: #7E1B5E;
+      }
+    }
+    .page-intro-header {
+      background-color: #8b1104;
+      color: #F4C3BE;
+    }
+    .page-intro-subscribe {
+      background-color: #6d0d03;
+      color: #F4C3BE;
+      .widget-title, h2, h3 {
+        color: #fff;
+      }
+      .page-title-span:after {
+        background-color: #fff;
+      }
+    }
+    .ilovewp-featured-post .entry-title a, #site-home-welcome .widget-title {
+      color: #fff;
+    }
+    .ilovewp-featured-post .entry-tagline, .site-archive-post .entry-tagline .post-meta-span-time, .single .entry-tagline .post-meta-span-time {
+      background-color: #070707;
+      color: #fff;
+    }
+    .ilovewp-featured-page-item .entry-title a {
+      background-color: #070707;
+      color: #fff;
+      &:hover, &:focus {
+        background-color: #8b1104;
+      }
+    }
+    #site-footer .widget-title {
+      color: #070707;
+    }
+    .site-breadcrumbs a:hover {
+      color: #8b1104;
+    }
+  }
+  
+  .site-breadcrumbs a:focus {
+    color: #8b1104;
+  }
+  
+  .theme-color-red .pagination {
+    a {
+      color: #8b1104;
+    }
+    .current {
+      background-color: #8b1104;
+      border-color: #8b1104;
+      color: #fff;
+    }
+    a {
+      &:hover, &:focus {
+        background-color: #8b1104;
+        border-color: #8b1104;
+        color: #fff;
+      }
+    }
+    .current {
+      color: #fff;
+    }
+  }

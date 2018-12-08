@@ -1,0 +1,37 @@
+.pagination {
+    border-top: dashed 2px #ddd;
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin: 3rem 0 0;
+    padding-top: 3rem;
+    text-align: center;
+    .page-numbers {
+      border: solid 1px #e5e8eb;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      -ms-border-radius: 2px;
+      border-radius: 2px;
+      display: inline-block;
+      line-height: 1em;
+      margin: 0 3px;
+      padding: 0.75rem;
+    }
+    a {
+      color: #12bed9;
+    }
+    .current {
+      background-color: #12bed9;
+      border-color: #12bed9;
+      color: #fff;
+    }
+    a {
+      &:hover, &:focus {
+        background-color: #12bed9;
+        border-color: #12bed9;
+        color: #fff;
+      }
+    }
+    .current {
+      color: #fff;
+    }
+  }
