@@ -12,5 +12,12 @@ gulp.task('sass', function () {
 });
  
 gulp.task('sass:watch', function () {
-  gulp.watch('scss/**/*.scss', ['sass']);
+  gulp.watch('scss/**/*.scss', ['sass', 'sassPrimary']);
+});
+
+/* Compile outside the CSS directory for the main style.css file */
+gulp.task('sassPrimary', function () {
+    return gulp.src('scss/style.scss')
+      .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+      .pipe(gulp.dest('./'));
 });
