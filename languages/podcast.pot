@@ -1,0 +1,527 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Podcast\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-15 14:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: 404.php:15
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:17
+msgid ""
+"Apologies, but the requested page cannot be found. Perhaps searching will "
+"help find a related page."
+msgstr ""
+
+#: 404.php:24 search.php:24
+msgid "Browse Categories"
+msgstr ""
+
+#: 404.php:31 search.php:29
+msgid "Monthly Archives"
+msgstr ""
+
+#. %s: post title
+#: comments.php:33
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#. 1: number of comments, 2: post title
+#: comments.php:37
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:53 comments.php:74
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:56 comments.php:77
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:57 comments.php:78
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:90
+msgid "Comments are closed."
+msgstr ""
+
+#: content-nocontent.php:11
+msgid "Thank you for installing Podcast Theme"
+msgstr ""
+
+#: footer.php:32
+msgid "Copyright &copy; "
+msgstr ""
+
+#: footer.php:32
+msgid "All Rights Reserved. "
+msgstr ""
+
+#: footer.php:33
+msgid "Theme by"
+msgstr ""
+
+#: functions.php:117
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:136
+msgid "Featured Image: Slideshow Size"
+msgstr ""
+
+#: functions.php:137
+msgid "Featured Image: Page Thumbnail"
+msgstr ""
+
+#: functions.php:138
+msgid "Featured Image: Thumbnail"
+msgstr ""
+
+#. If there are characters in your language that are not supported by Josefin Slab, translate this to 'off'. Do not translate into your own language.
+#: functions.php:158
+msgctxt "Josefin Slab font: on or off"
+msgid "on"
+msgstr ""
+
+#. If there are characters in your language that are not supported by Poppins, translate this to 'off'. Do not translate into your own language.
+#: functions.php:163
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:206
+msgctxt "The main label for the expandable mobile menu"
+msgid "Click for Menu"
+msgstr ""
+
+#: functions.php:341
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:372
+msgid "Logo for "
+msgstr ""
+
+#: functions.php:395
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:395 functions.php:423
+msgid "Edit"
+msgstr ""
+
+#: functions.php:413
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:419
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: index.php:68
+msgid "Recent Posts"
+msgstr ""
+
+#: search.php:15
+msgid "Search Results for"
+msgstr ""
+
+#: search.php:22
+msgid "Apologies, but the search query did not return any results."
+msgstr ""
+
+#: customizer/customizer.php:177
+msgid "General"
+msgstr ""
+
+#: customizer/customizer.php:178 customizer/sections/footer.php:8
+msgid "Footer"
+msgstr ""
+
+#: customizer/customizer.php:232
+msgid "Theme Documentation"
+msgstr ""
+
+#: customizer/customizer.php:237
+msgid "Official Theme Page"
+msgstr ""
+
+#: customizer/customizer.php:242
+msgid "Support Forum"
+msgstr ""
+
+#: customizer/customizer.php:247
+msgid "Rate Podcast"
+msgstr ""
+
+#: customizer/customizer.php:257
+msgid "Theme Help & Support"
+msgstr ""
+
+#: customizer/helpers-defaults.php:7
+#, php-format
+msgid "Copyright &copy; %1$s %2$s."
+msgstr ""
+
+#: customizer/helpers.php:159 customizer/helpers.php:209
+msgid "None"
+msgstr ""
+
+#: ilovewp-admin/helper-functions.php:82
+msgid "Pages"
+msgstr ""
+
+#: ilovewp-admin/helper-functions.php:96
+msgid "Tags"
+msgstr ""
+
+#. %s theme name
+#: ilovewp-admin/ilovewp-theme-notices.php:46
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#. %1$s: theme name, %2$s link
+#: ilovewp-admin/ilovewp-theme-notices.php:51
+#, php-format
+msgid ""
+"Thank you for choosing %1$s! To fully take advantage of the best our theme "
+"can offer please make sure you visit our <a href=\"%2$s\">Welcome page</a>"
+msgstr ""
+
+#. %s theme name
+#: ilovewp-admin/ilovewp-theme-notices.php:56
+#, php-format
+msgid "Get started with %s"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:18
+msgid "Podcast Theme"
+msgstr ""
+
+#. Theme name and version
+#: ilovewp-admin/ilovewp-theme-settings.php:41
+#, php-format
+msgid ""
+"<span class=\"theme-name\">%1$s Theme</span> <span class=\"theme-version\">"
+"(version %2$s)</span> by"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:47
+msgid "ILoveWP.com Logo"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:53
+msgid "Podcast Documentation"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:54
+msgid "Podcast Support Forum"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:55
+msgid "Leave a Review"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:56
+msgid "Contact the Developer"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:65
+msgid "Thank you for installing Podcast"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:70
+msgid "Podcast Official Page"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:71
+msgid "Podcast Live Demo"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:80
+msgid "Podcast Documentation and Support"
+msgstr ""
+
+#. Theme name and link to WordPress.org Support forum for the theme
+#: ilovewp-admin/ilovewp-theme-settings.php:85
+#, php-format
+msgid ""
+"Support for %1$s Theme is provided in the official <a href=\"%2$s\" "
+"target=\"_blank\" rel=\"noopener\">WordPress.org community support forums</a>"
+". You can expect a response to your questions in less than 24 hours."
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:90
+msgid "View Podcast Documentation"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:91
+msgid "Go to Podcast Support Forum"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:98
+msgid "Help us help you"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:100
+msgid ""
+"There are a few ways that you could support us in our efforts to continue "
+"developing and maintaining free WordPress themes."
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:101
+msgid ""
+"ILOVEWP.com relies on donations for much of its funding. If you would like "
+"to support us donations are very welcome."
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:102
+msgid ""
+"Another way is to write a review for Podcast on the WordPress.org website. "
+"It helps and motivates us to continue updating and providing support for our "
+"Podcast Theme."
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:104
+msgid "Write a Review for Podcast"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:104
+msgid "Make a Donation"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:110
+msgid "WordPress Themes and Resources"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:112
+msgid ""
+"Podcast is just one of the many free WordPress themes that we have developed."
+" "
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:113
+msgid "Browse our WordPress Themes"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:115
+msgid ""
+"We have a great collection of guides and articles on how to create WordPress "
+"websites for: Photographers, Hotels, Schools, Universities, Churches, "
+"Museums, Doctors, Hospitals, Lawyers and other types of organizations and "
+"businesses."
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:116
+msgid "Browse our WordPress Resources"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:122
+msgid "Considering a new web hosting provider?"
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:125
+msgid ""
+"Even though most hosts can host PHP websites (the programming language in "
+"which WordPress is coded in), there are providers that can provide better "
+"performance for WordPress websites than regular hosts."
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:126
+msgid ""
+"We have a small list of handpicked hosting providers that have a great "
+"reputation in the developers community."
+msgstr ""
+
+#: ilovewp-admin/ilovewp-theme-settings.php:127
+msgid "Popular WordPress Hosting Providers"
+msgstr ""
+
+#: ilovewp-admin/sidebars.php:10
+msgid "Sidebar"
+msgstr ""
+
+#: ilovewp-admin/sidebars.php:19
+msgid "Homepage: Welcome Widgets (Right)"
+msgstr ""
+
+#: ilovewp-admin/sidebars.php:21
+msgid ""
+"Recommended widgets: An image widget, social icons widget, subscribe banners,"
+" etc."
+msgstr ""
+
+#: ilovewp-admin/sidebars.php:29
+msgid "Homepage: Subscribe Bar"
+msgstr ""
+
+#: ilovewp-admin/sidebars.php:31
+msgid ""
+"We recommend adding a single [Text Widget]. The widget's title will be "
+"wrapped in a <h1></h1> tag."
+msgstr ""
+
+#: ilovewp-admin/sidebars.php:39
+msgid "Footer: Column 1"
+msgstr ""
+
+#: ilovewp-admin/sidebars.php:48
+msgid "Footer: Column 2"
+msgstr ""
+
+#. Name of the template
+msgid "Full Width Page"
+msgstr ""
+
+#. Name of the template
+msgid "Page Builder Template"
+msgstr ""
+
+#: template-parts/content-home-post.php:12 customizer/sections/general.php:78
+msgid "Newest Episode"
+msgstr ""
+
+#: customizer/sections/background.php:10
+msgid "Site Background"
+msgstr ""
+
+#: customizer/sections/background.php:14
+msgid "Background Color"
+msgstr ""
+
+#: customizer/sections/footer.php:17
+msgid "Copyright Text"
+msgstr ""
+
+#: customizer/sections/general.php:8
+msgid "Left"
+msgstr ""
+
+#: customizer/sections/general.php:9
+msgid "Right"
+msgstr ""
+
+#: customizer/sections/general.php:13
+msgid "Black"
+msgstr ""
+
+#: customizer/sections/general.php:14
+msgid "Blue"
+msgstr ""
+
+#: customizer/sections/general.php:15
+msgid "Green"
+msgstr ""
+
+#: customizer/sections/general.php:16
+msgid "Orange"
+msgstr ""
+
+#: customizer/sections/general.php:17
+msgid "Purple"
+msgstr ""
+
+#: customizer/sections/general.php:18
+msgid "Red"
+msgstr ""
+
+#: customizer/sections/general.php:19
+msgid "Teal"
+msgstr ""
+
+#: customizer/sections/general.php:23
+msgid "Theme Settings"
+msgstr ""
+
+#: customizer/sections/general.php:33
+msgid "Theme Color Palette"
+msgstr ""
+
+#: customizer/sections/general.php:45
+msgid "Default Sidebar Position"
+msgstr ""
+
+#: customizer/sections/general.php:57
+msgid "Display Newest Episode Block on Homepage"
+msgstr ""
+
+#: customizer/sections/general.php:68
+msgid "Category containing Episodes"
+msgstr ""
+
+#: customizer/sections/general.php:69
+#, php-format
+msgid "This list is populated with <a href=\"%1$s\">Categories</a>."
+msgstr ""
+
+#: customizer/sections/general.php:81
+msgid "Post Block Heading"
+msgstr ""
+
+#: customizer/sections/general.php:92
+msgid "Display Featured Pages on Homepage"
+msgstr ""
+
+#: customizer/sections/general.php:103
+msgid "Featured Page #1"
+msgstr ""
+
+#: customizer/sections/general.php:104
+#, php-format
+msgid "This list is populated with <a href=\"%1$s\">Pages</a>."
+msgstr ""
+
+#: customizer/sections/general.php:116
+msgid "Featured Page #2"
+msgstr ""
+
+#: customizer/sections/general.php:128
+msgid "Featured Page #3"
+msgstr ""
+
+#. Name of the theme
+msgid "Podcast"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Podcast is a free WordPress theme intended for podcasts, youtubers, "
+"streamers, radio hosts, comedians, influencers and bloggers. Podcast theme "
+"comes with 7 built-in color palettes: black, blue, green, orange, purple, "
+"red, teal. The theme let's you put the sidebar on the left or on the right."
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.ilovewp.com/themes/podcast/"
+msgstr ""
+
+#. Author of the theme
+msgid "ilovewpcom"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.ilovewp.com/"
+msgstr ""
