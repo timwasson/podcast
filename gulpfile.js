@@ -1,7 +1,8 @@
 'use strict';
  
-var gulp = require('gulp');
-var sass = require('gulp-sass');
+var gulp = require('gulp'),
+    sass = require('gulp-sass'),
+    sourcemaps = require('gulp-sourcemaps');
  
 sass.compiler = require('node-sass');
  
@@ -19,5 +20,13 @@ gulp.task('sass:watch', function () {
 gulp.task('sassPrimary', function () {
     return gulp.src('scss/style.scss')
       .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+      .pipe(gulp.dest('./'));
+});
+
+gulp.task('sassPrimarySM', function () {
+    return gulp.src('scss/style.scss')
+      .pipe(sourcemaps.init())
+      .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+      .pipe(sourcemaps.write())
       .pipe(gulp.dest('./'));
 });
